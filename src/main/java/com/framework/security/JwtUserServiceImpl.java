@@ -39,4 +39,5 @@ public class JwtUserServiceImpl implements UserDetailsService {
         }
         return new LoginUser(member);
     }
+    
 }
